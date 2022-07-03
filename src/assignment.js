@@ -35,7 +35,6 @@ assignment.sumOfNumbers = sumOfNumbers;
 function countEvenNumbers(arrayOfNumbers) {
   var sumofeven = 0;
   for (var i = 0 ; i < arrayOfNumbers.length; i++){
-    even = [];
     if (arrayOfNumbers[i] % 2 == 0 ){   sumofeven++;
     }
   }
